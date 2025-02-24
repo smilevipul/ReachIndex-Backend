@@ -1,0 +1,24 @@
+{
+  "name": "onebox-email-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.17.0",
+    "@slack/webhook": "^7.0.4",
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "imap-simple": "^5.1.0",
+    "mongodb": "^6.13.1",
+    "node-imap": "^0.9.6",
+    "openai": "^4.85.4"
+  }
+}
